@@ -1,0 +1,1 @@
+ALTER TABLE projetos ADD COLUMN descricao_ideia VARCHAR(255);
