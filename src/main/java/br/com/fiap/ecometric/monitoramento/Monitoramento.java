@@ -18,7 +18,7 @@ public class Monitoramento {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     LocalDateTime dataEmissao;
-    String porcentagemDiferenca;
+    Integer porcentagemDiferenca;
     String melhoriaTotal;
     String stMonitoramento;
     String descricao;

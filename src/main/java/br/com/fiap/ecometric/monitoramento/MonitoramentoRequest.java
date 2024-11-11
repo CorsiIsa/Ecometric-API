@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 public record MonitoramentoRequest(
     LocalDateTime dataEmissao,
-    String porcentagemDiferenca,
+    Integer porcentagemDiferenca,
     String melhoriaTotal,
     String stMonitoramento,
     String descricao
